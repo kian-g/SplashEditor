@@ -12,7 +12,7 @@
 - Output can be exported into pdf, jpeg, png, and svg.
 - Crop / Replace image functionality available.
 - Import images from Social Media (FB, Instagram etc.).
-- __Pre-Populated templates can be created easily._
+- __Pre-Populated templates can be created easily.__
 - __Image / Text / shape / svg elements can be added / imported by the user to customize the design.__
 - Drag and Drop text/images/elements to the design.
 
