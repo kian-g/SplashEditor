@@ -16,5 +16,4 @@
 - __Image / Text / shape / svg elements can be added / imported by the user to customize the design.__
 - Drag and Drop text/images/elements to the design.
 
-
-Note: __bold__ text means working and coming soon
+Note: __bold__ text means it's being worked on and is coming soon
