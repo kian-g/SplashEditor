@@ -144,7 +144,7 @@ class LeftPanel extends Component {
             radius: 50,
             left: 10,
             top: 10,
-            strokeWidth: '',
+            strokeWidth: '1',
             stroke: '',
             fill: '#ff5722'
         });
@@ -156,7 +156,7 @@ class LeftPanel extends Component {
 
     addHeadingtxt = () => {
         var canvas = this.props.canvas;
-        var text = new fabric.Textbox('Add Heading', {
+        var text = new fabric.Textbox('Double click to edit', {
             fontFamily: 'Montserrat',
             left: 100,
             top: 100,
@@ -172,7 +172,7 @@ class LeftPanel extends Component {
 
     addSubheadingtxt = () => {
         var canvas = this.props.canvas;
-        var text = new fabric.Textbox('Add Subheading', {
+        var text = new fabric.Textbox('Double click to edit', {
             fontFamily: 'Montserrat',
             left: 100,
             top: 100,

@@ -68,7 +68,19 @@ class App extends Component {
         const canvasdata = document.getElementById('main-canvas');
         const canvasDataUrl = canvasdata.toDataURL().replace(/^data:image\/[^;]*/, 'data:application/octet-stream'),
             link = document.createElement('a');
-        fileName = "splash-" + fileName + ".pfp";
+
+        // Random ID
+        //eslint-disable-next-line
+        {
+            var mthRand = Math.round(Math.random() * (10000 - 1) + 1);
+            if (mthRand <= 999) {
+                mthRand = "00" + mthRand;
+            }
+            if (mthRand <= 9999) {
+                mthRand = "0" + mthRand;
+            }
+        }
+        fileName = "splash-" + mthRand + fileName + ".pfp";
         link.setAttribute('href', canvasDataUrl);
         link.setAttribute('crossOrigin', 'anonymous');
         link.setAttribute('target', '_blank');
