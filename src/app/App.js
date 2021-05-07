@@ -181,7 +181,6 @@ class App extends Component {
                                 <span className="navbar-toggler-icon"></span>
                             </button>
                             <a className="navbar-brand" href="/"><img src={require('./images/logo.svg')} alt="" /> <small>Splash Editor</small></a>
-                            { <div className="left-link"><span className="nav-link brand text-primary"><strong>Splash Editor</strong></span></div> }
                         </nav>
                     </Col>
                     <Col>
