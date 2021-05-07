@@ -180,8 +180,8 @@ class App extends Component {
                             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="{null}bs-example-navbar-collapse-1">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
-                            <a className="navbar-brand" href="/"><img src={require('./images/logo.svg')} alt="" /> <small>Artwork Editor</small></a>
-                            {/* <div className="left-link"><span className="nav-link brand text-primary"><strong>Otter Artwork Editor</strong></span></div> */}
+                            <a className="navbar-brand" href="/"><img src={require('./images/logo.svg')} alt="" /> <small>Splash Editor</small></a>
+                            { <div className="left-link"><span className="nav-link brand text-primary"><strong>Splash Editor</strong></span></div> }
                         </nav>
                     </Col>
                     <Col>
